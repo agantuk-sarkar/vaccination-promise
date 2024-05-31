@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaccination system</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold">Vaccination System</h1>
+    <div class="container mt-[2rem]">
+      <form class="myForm">
+        <label for="name">Name:</label>
+        <input class="border-2" type="text" id="name" placeholder="Enter your name" />
+        <input class="border-2 cursor-pointer bg-green-500" type="submit" value="Submit" />
+      </form>
+    </div>
+    <div class="queue-container mt-[1rem]">
+        <span>People in queue:</span>
+        <span class="peopleCount"></span>
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>
